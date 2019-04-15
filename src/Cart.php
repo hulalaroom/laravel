@@ -93,7 +93,6 @@ class Cart
                 return $this->add($item);
             }, $id);
         }
-
         $cartItem = $this->createCartItem($id, $name, $qty, $price, $options);
 
         $content = $this->getContent();
